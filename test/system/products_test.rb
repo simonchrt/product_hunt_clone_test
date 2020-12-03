@@ -25,7 +25,7 @@ class ProductsTest < ApplicationSystemTestCase
     # save_and_open_screenshot
 
     click_on 'Create Product'
-    # save_and_open_screenshot
+    save_and_open_screenshot
 
     # Should be redirected to Home with new product
     assert_equal root_path, page.current_path
